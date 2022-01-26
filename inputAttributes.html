@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3>Readonly attribute</h3>
+    <form class="" action="index.html" method="post">
+      <label for="firstName">First name: </label>
+      <input type="text" id="firstname" name="firstname" value="Joanna" readonly>
+    </form>
+
+    <h3>Disabled attribute</h3>
+    <form class="" action="index.html" method="post">
+      <label for="lName">Last Name: </label>
+      <input type="text" name="lname" id="lname" value="Straczynski" disabled>
+    </form>
+
+    <h3>Size attribute</h3>
+    <form class="" action="index.html" method="post">
+      <label for="pin">PIN: </label>
+      <input type="text" id="pin" name="pin" value="" size="4">
+    </form>
+
+    <h3>Maxlength attribute</h3>
+    <form class="" action="index.html" method="post">
+      <label for="sentance">Message: </label>
+      <input type="text" name="sentance" id="sentance" value="" maxlength="10">
+    </form>
+
+    <h3>Multiple attribute</h3>
+    <form class="" action="index.html" method="post">
+      <label for="files">Select files:</label>
+      <input type="file" id="files" name="files" value="" multiple>
+    </form>
+
+    <h3>Pattern attribute</h3>
+    <form class="" action="index.html" method="post">
+      <label for="countryCode">Country code: </label>
+      <input type="text" id="countryCode" name="countryCode" value="" pattern="[A-Za-z]{3}" title="Three letter country code">
+    </form>
+
+    <h3>Placeholder attribute</h3>
+    <form>
+  <label for="phone">Enter a phone number:</label>
+  <input type="tel" id="phone" name="phone"
+  placeholder="123-45-678"
+  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+</form>
+
+<h3>Required attribute</h3>
+<form class="" action="index.html" method="post">
+  <label for="username">Username: </label>
+  <input type="text" id="username" name="username" value="" required>
+</form>
+
+<h3>Autofocus attribute</h3>
+<form class="" action="index.html" method="post">
+  <label for="name">Name</label>
+  <input type="text" id = "name" name="name" value="" autofocus>
+</form>
+
+<h3>Height and width attirbutes</h3>
+<input type="image" src="https://image.shutterstock.com/image-photo/healthy-food-clean-eating-fruit-600w-1288402915.jpg" name="" value="" width="50" height="50">
+
+<h3>Autocomplete attribute</h3>
+<form class="" action="index.html" method="post">
+  <label for="email">Email: </label>
+  <input type="email" name="email" id="email" value="" autocomplete="off">
+</form>
+
+  </body>
+</html>
